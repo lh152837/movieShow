@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/reying_linear"
+    >
+    <ImageView
+        android:layout_marginLeft="@dimen/dp_35"
+        android:id="@+id/one_image"
+        android:layout_width="@dimen/dp_100"
+        android:layout_height="@dimen/dp_130"
+        ></ImageView>
+    <TextView
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_marginLeft="@dimen/dp_45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/one_name"
+        android:text="xxx"
+        android:textColor="@color/colorWhite"
+        ></TextView>
+</LinearLayout>

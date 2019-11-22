@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/tuijian_linear"
+    >
+
+    <ImageView
+        android:layout_marginTop="@dimen/dp_25"
+        android:id="@+id/tuijian_image"
+        android:layout_width="@dimen/dp_70"
+        android:layout_height="@dimen/dp_70"></ImageView>
+
+    <TextView
+        android:layout_marginTop="@dimen/dp_25"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/tuijian_yingyuan"
+        android:layout_width="@dimen/dp_58"
+        android:layout_height="@dimen/dp_20"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_toRightOf="@id/tuijian_image"
+        android:text="xxx"></TextView>
+    <TextView
+        android:textColor="@color/colorWhite"
+        android:id="@+id/tuijian_dizhi"
+        android:layout_width="@dimen/dp_212"
+        android:layout_height="@dimen/dp_32"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_below="@id/tuijian_yingyuan"
+        android:layout_toRightOf="@id/tuijian_image"
+        android:text="xxx"></TextView>
+    <TextView
+        android:textColor="@color/colorWhite"
+        android:layout_width="@dimen/dp_32"
+        android:layout_height="@dimen/dp_17"
+        android:id="@+id/tuijian_juli"
+        android:layout_toRightOf="@id/tuijian_image"
+        android:layout_below="@id/tuijian_dizhi"
+        android:text="xxx"
+        android:layout_marginLeft="@dimen/dp_202"
+        ></TextView>
+</RelativeLayout>

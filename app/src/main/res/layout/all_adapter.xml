@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/all_image"
+        android:layout_width="@dimen/dp_84"
+        android:layout_height="@dimen/dp_101"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="@dimen/dp_100"
+        android:src="@drawable/gray_radius"></ImageView>
+
+    <TextView
+        android:id="@+id/all_name"
+        android:layout_width="@dimen/dp_84"
+        android:layout_height="@dimen/dp_20"
+        android:layout_marginLeft="@dimen/dp_25"
+        android:layout_marginTop="@dimen/dp_110"
+        android:layout_toRightOf="@id/all_image"
+        android:text="xxx"></TextView>
+
+    <TextView
+        android:id="@+id/all_daoyan"
+        android:layout_width="@dimen/dp_60"
+        android:layout_height="@dimen/dp_17"
+        android:layout_below="@id/all_name"
+        android:layout_marginLeft="@dimen/dp_25"
+        android:layout_marginTop="@dimen/dp_0_5"
+        android:layout_toRightOf="@id/all_image"
+        android:text="xxx"></TextView>
+
+    <TextView
+        android:id="@+id/all_zhuyan"
+        android:layout_width="@dimen/dp_148"
+        android:layout_height="@dimen/dp_17"
+        android:layout_below="@id/all_daoyan"
+        android:layout_marginLeft="@dimen/dp_25"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/all_image"
+        android:text="xxx"></TextView>
+
+    <TextView
+        android:layout_width="66dp"
+        android:layout_height="@dimen/dp_17"
+        android:id="@+id/all_pingfen"
+        android:text="xxx"
+        android:layout_toRightOf="@id/all_image"
+        android:layout_below="@id/all_zhuyan"
+        android:layout_marginLeft="@dimen/dp_25"
+        ></TextView>
+    <Button
+        android:layout_width="@dimen/dp_24"
+        android:layout_height="@dimen/dp_17"
+        android:text="购票"
+        android:id="@+id/all_goupiao"
+        android:background="@color/colorAccent"
+        android:layout_toRightOf="@id/all_pingfen"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_below="@id/all_zhuyan"
+        ></Button>
+</RelativeLayout>

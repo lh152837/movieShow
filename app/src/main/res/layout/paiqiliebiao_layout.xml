@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dp_230"
+    android:layout_height="match_parent"
+    android:background="@color/shouye"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_marginLeft="@dimen/dp_14"
+    >
+
+    <TextView
+        android:layout_marginLeft="@dimen/dp_20"
+        android:id="@+id/paiqiliebiao_name"
+        android:layout_width="@dimen/dp_118"
+        android:layout_height="@dimen/dp_25"
+        android:gravity="center"
+        android:text="xxx"
+        android:textColor="@color/colorWhite"></TextView>
+
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50">
+
+        <TextView
+            android:layout_marginLeft="@dimen/dp_20"
+            android:id="@+id/time_kaishi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="14:40"
+            android:textColor="#deffffff"
+            android:textSize="18sp" />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/jiange"
+            android:layout_width="@dimen/dp_50"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/time_kaishi"
+            android:text="—"
+            android:layout_marginTop="@dimen/dp_5"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/dp_10"></TextView>
+
+        <TextView
+            android:id="@+id/time_jieshu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/jiange"
+            android:text="16:26 "
+            android:textColor="#deffffff"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+</LinearLayout>

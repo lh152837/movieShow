@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/fujin_image"
+        android:layout_width="@dimen/dp_70"
+        android:layout_height="@dimen/dp_70"></ImageView>
+
+    <TextView
+        android:id="@+id/fujin_yingyuan"
+        android:layout_width="@dimen/dp_58"
+        android:layout_height="@dimen/dp_20"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_toRightOf="@id/fujin_image"
+        android:text="xxx"
+        android:textColor="@color/colorWhite"></TextView>
+
+    <TextView
+        android:id="@+id/fujin_dizhi"
+        android:layout_width="@dimen/dp_212"
+        android:layout_height="@dimen/dp_32"
+        android:layout_below="@id/fujin_yingyuan"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_toRightOf="@id/fujin_image"
+        android:text="xxx"
+        android:textColor="@color/colorWhite"></TextView>
+
+    <TextView
+        android:id="@+id/fujin_juli"
+        android:layout_width="@dimen/dp_32"
+        android:layout_height="@dimen/dp_17"
+        android:layout_below="@id/fujin_dizhi"
+        android:layout_marginLeft="@dimen/dp_202"
+        android:layout_toRightOf="@id/fujin_image"
+        android:text="xxx"
+        android:textColor="@color/colorWhite"></TextView>
+</RelativeLayout>

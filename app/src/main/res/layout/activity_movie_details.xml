@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/shouye"
+    android:orientation="vertical"
+    tools:context=".view.MovieDetailsActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_100">
+
+        <ImageView
+            android:id="@+id/moview_details_fanhui"
+            android:layout_width="@dimen/dp_16"
+            android:layout_height="@dimen/dp_16"
+            android:layout_marginLeft="@dimen/dp_28"
+            android:layout_marginTop="@dimen/dp_42"
+            android:src="@mipmap/backk"></ImageView>
+
+        <TextView
+            android:layout_width="@dimen/dp_64"
+            android:layout_height="@dimen/dp_22"
+            android:text="影院详情"
+            android:textColor="@color/colorWhite"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dp_235"
+            ></TextView>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/chakan_dianying"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="900dp"
+        android:text="查看该影院电影排期"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        ></TextView>
+</LinearLayout>

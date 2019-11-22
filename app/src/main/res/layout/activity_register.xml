@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/zcbj"
+    android:orientation="vertical"
+    tools:context=".view.RegisterActivity">
+    <ImageView
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        >
+
+        <EditText
+            android:id="@+id/edit_yonghu"
+            android:paddingLeft="20dp"
+            android:layout_width="@dimen/dp_300"
+            android:layout_height="@dimen/dp_50"
+            android:background="@drawable/shap"
+            android:hint="请输入用户名"
+            android:textColorHint="@color/colorWhite"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:singleLine="true"
+            android:inputType="text"
+            android:lines="1"            />
+
+        <EditText
+            android:id="@+id/edit_youxiang"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="@dimen/dp_300"
+            android:layout_height="@dimen/dp_50"
+            android:hint="请输入邮箱"
+            android:textColorHint="@color/colorWhite"            android:textColor="#fff"
+            android:background="@drawable/shap"
+            android:layout_gravity="center"
+            android:singleLine="true"
+            android:inputType="text"
+            android:lines="1"
+            />
+
+        <EditText
+            android:id="@+id/edit_mima"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="@dimen/dp_300"
+            android:layout_height="@dimen/dp_50"
+            android:hint="请输入密码"
+            android:textColorHint="@color/colorWhite"            android:textColor="#fff"
+            android:background="@drawable/shap"
+            android:layout_gravity="center"
+            android:singleLine="true"
+            android:lines="1"
+            />
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:background="#34c368"
+                android:layout_width="91dp"
+                android:layout_height="3dp"/>
+            <Button
+                android:layout_marginLeft="20dp"
+                android:background="#34c368"
+                android:layout_width="91dp"
+                android:layout_height="3dp"/>
+            <Button
+                android:layout_marginLeft="20dp"
+                android:background="#d8d8d8"
+                android:layout_width="91dp"
+                android:layout_height="3dp"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="312dp"
+            android:layout_height="44dp">
+
+            <EditText
+                android:id="@+id/edit_yanzhengma"
+                android:layout_width="@dimen/dp_220"
+                android:layout_height="@dimen/dp_80"
+                android:layout_gravity="center"
+                android:background="@drawable/shap"
+                android:paddingLeft="20dp"
+                android:hint="请输入验证码"
+                android:singleLine="true"
+                android:lines="1"
+                android:textColorHint="@color/colorWhite"
+                android:inputType="number"
+                android:textColor="#fff" />
+            <Button
+                android:id="@+id/btn_fasong"
+                android:text="重新发送(32)"
+                android:textColor="@color/colorWhite"
+                android:background="@drawable/shap"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+        <TextView
+
+            android:id="@+id/yiyou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已有账号 立即登录"
+            android:textColor="#13BCD3"
+            android:layout_marginLeft="@dimen/dp_240"
+            android:layout_marginTop="@dimen/dp_20"
+            ></TextView>
+
+        <Button
+            android:id="@+id/btn_zhuce"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_width="@dimen/dp_300"
+            android:layout_height="@dimen/dp_50"
+            android:text="注册"
+            android:textColor="#F5F5F5"
+            android:background="#F02011"/>
+    </LinearLayout>
+</LinearLayout>

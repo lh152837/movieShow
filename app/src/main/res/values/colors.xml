@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorBgBlues">#141931</color>
+    <color name="colorWhite">#E9EAF1</color>
+    <color name="shouye">#141931</color>
+    <color name="aa">#0B0F29</color>
+    <color name="yellow">#FF9C10</color>
+    <color name="white">#FCF7F3</color>
+    <color name="lipstick">#F3336B</color>
+</resources>

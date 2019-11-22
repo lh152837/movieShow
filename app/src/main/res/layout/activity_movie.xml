@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/login_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".view.MovieActivity">
+
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/dp_200"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <EditText
+            android:id="@+id/edit_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="请输入账号"
+            android:padding="10dp"
+            android:lines="1"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp">
+
+        <EditText
+            android:id="@+id/edit_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="请输入密码"
+            android:lines="1"
+            android:padding="10dp"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:background="@color/colorWhite"
+            android:gravity="center"
+            android:text="忘记密码" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text_reg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dp"
+            android:text="暂无账号,立即注册"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite" />
+    </RelativeLayout>
+
+    <Button
+
+        android:id="@+id/but_log"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/colorAccent"
+        android:text="登录"
+        android:textColor="@color/colorWhite" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_20"
+        android:text="——————或——————"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/dp_20"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"></LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+    <Button
+        android:id="@+id/but_wz"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/colorPrimary"
+        android:text="微信"
+        android:textColor="@color/colorWhite" />
+
+
+    <!-- <androidx.viewpager.widget.ViewPager
+         android:layout_width="match_parent"
+         android:layout_height="@dimen/dp_0"
+         android:layout_weight="9"
+         android:id="@+id/movie_vp"></androidx.viewpager.widget.ViewPager>
+
+     <RadioGroup
+         android:background="#1c2243"
+         android:layout_width="match_parent"
+         android:layout_height="@dimen/dp_0"
+         android:layout_weight="1"
+         android:orientation="horizontal"
+         android:id="@+id/movie_rg"
+         >
+         <RadioButton
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_weight="1"
+             android:id="@+id/movie_btn1"
+             android:button="@null"
+             android:drawableTop="@drawable/movie"
+             />
+         <RadioButton
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_weight="1"
+             android:id="@+id/movie_btn2"
+             android:button="@null"
+             android:drawableTop="@drawable/cinema"
+
+
+             />
+         <RadioButton
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_weight="1"
+             android:id="@+id/movie_btn3"
+             android:button="@null"
+
+             android:drawableTop="@drawable/my"
+             />
+
+     </RadioGroup>-->
+</LinearLayout>
